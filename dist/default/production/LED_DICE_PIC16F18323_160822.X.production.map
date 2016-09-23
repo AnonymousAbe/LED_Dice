@@ -1,0 +1,110 @@
+MPLINK 5.08, LINKER
+Linker Map File - Created Mon Aug 22 21:55:15 2016
+
+                                 Section Info
+                  Section       Type    Address   Location Size(Bytes)
+                ---------  ---------  ---------  ---------  ---------
+                 RES_VECT       code   0x000000    program   0x000002
+                   .cinit    romdata   0x000001    program   0x000004
+                      ISR       code   0x000004    program   0x00002c
+                MAIN_PROG       code   0x00001a    program   0x000182
+.config_8007_BUILD/DEFAULT/PRODUCTION/MAIN_01       code   0x008007    program   0x000002
+.config_8008_BUILD/DEFAULT/PRODUCTION/MAIN_01       code   0x008008    program   0x000002
+.config_8009_BUILD/DEFAULT/PRODUCTION/MAIN_01       code   0x008009    program   0x000002
+.config_800A_BUILD/DEFAULT/PRODUCTION/MAIN_01       code   0x00800a    program   0x000002
+
+
+
+                              Program Memory Usage 
+                               Start         End      
+                           ---------   ---------      
+                            0x000000    0x000002      
+                            0x000004    0x0000da      
+                            0x008007    0x00800a      
+            222 out of 2313 program addresses used, program memory utilization is 9%
+
+
+
+                              Symbols - Sorted by Name
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                    Ainit   0x00001f    program     static C:\Users\Abe\MPLABXProjects\LED_DICE_PIC16F18323_160822.X\main_01.asm
+                    Cinit   0x000028    program     static C:\Users\Abe\MPLABXProjects\LED_DICE_PIC16F18323_160822.X\main_01.asm
+                Clear_LED   0x0000bb    program     static C:\Users\Abe\MPLABXProjects\LED_DICE_PIC16F18323_160822.X\main_01.asm
+               Cycle_Rand   0x000048    program     static C:\Users\Abe\MPLABXProjects\LED_DICE_PIC16F18323_160822.X\main_01.asm
+                    Delay   0x00009c    program     static C:\Users\Abe\MPLABXProjects\LED_DICE_PIC16F18323_160822.X\main_01.asm
+                   Disp_1   0x000062    program     static C:\Users\Abe\MPLABXProjects\LED_DICE_PIC16F18323_160822.X\main_01.asm
+                   Disp_2   0x00006a    program     static C:\Users\Abe\MPLABXProjects\LED_DICE_PIC16F18323_160822.X\main_01.asm
+                   Disp_3   0x000073    program     static C:\Users\Abe\MPLABXProjects\LED_DICE_PIC16F18323_160822.X\main_01.asm
+                   Disp_4   0x00007d    program     static C:\Users\Abe\MPLABXProjects\LED_DICE_PIC16F18323_160822.X\main_01.asm
+                   Disp_5   0x000087    program     static C:\Users\Abe\MPLABXProjects\LED_DICE_PIC16F18323_160822.X\main_01.asm
+                   Disp_6   0x000091    program     static C:\Users\Abe\MPLABXProjects\LED_DICE_PIC16F18323_160822.X\main_01.asm
+              Display_LED   0x00003f    program     static C:\Users\Abe\MPLABXProjects\LED_DICE_PIC16F18323_160822.X\main_01.asm
+                  INTinit   0x000037    program     static C:\Users\Abe\MPLABXProjects\LED_DICE_PIC16F18323_160822.X\main_01.asm
+                    PBISR   0x000005    program     static C:\Users\Abe\MPLABXProjects\LED_DICE_PIC16F18323_160822.X\main_01.asm
+                    R_000   0x000061    program     static C:\Users\Abe\MPLABXProjects\LED_DICE_PIC16F18323_160822.X\main_01.asm
+                    R_001   0x000060    program     static C:\Users\Abe\MPLABXProjects\LED_DICE_PIC16F18323_160822.X\main_01.asm
+                    R_00x   0x00005f    program     static C:\Users\Abe\MPLABXProjects\LED_DICE_PIC16F18323_160822.X\main_01.asm
+                    R_010   0x00005a    program     static C:\Users\Abe\MPLABXProjects\LED_DICE_PIC16F18323_160822.X\main_01.asm
+                    R_011   0x00005b    program     static C:\Users\Abe\MPLABXProjects\LED_DICE_PIC16F18323_160822.X\main_01.asm
+                    R_0xx   0x000057    program     static C:\Users\Abe\MPLABXProjects\LED_DICE_PIC16F18323_160822.X\main_01.asm
+                    R_100   0x00005d    program     static C:\Users\Abe\MPLABXProjects\LED_DICE_PIC16F18323_160822.X\main_01.asm
+                    R_101   0x00005e    program     static C:\Users\Abe\MPLABXProjects\LED_DICE_PIC16F18323_160822.X\main_01.asm
+                    R_10x   0x00005c    program     static C:\Users\Abe\MPLABXProjects\LED_DICE_PIC16F18323_160822.X\main_01.asm
+                    R_110   0x000055    program     static C:\Users\Abe\MPLABXProjects\LED_DICE_PIC16F18323_160822.X\main_01.asm
+                    R_111   0x000056    program     static C:\Users\Abe\MPLABXProjects\LED_DICE_PIC16F18323_160822.X\main_01.asm
+                 Random16   0x0000a9    program     static C:\Users\Abe\MPLABXProjects\LED_DICE_PIC16F18323_160822.X\main_01.asm
+                    START   0x00001a    program     static C:\Users\Abe\MPLABXProjects\LED_DICE_PIC16F18323_160822.X\main_01.asm
+                   STR_Hi   0x00000c    program     static C:\Users\Abe\MPLABXProjects\LED_DICE_PIC16F18323_160822.X\main_01.asm
+                   STR_Lo   0x000013    program     static C:\Users\Abe\MPLABXProjects\LED_DICE_PIC16F18323_160822.X\main_01.asm
+                 Spin_LED   0x0000c2    program     static C:\Users\Abe\MPLABXProjects\LED_DICE_PIC16F18323_160822.X\main_01.asm
+                   T2init   0x000031    program     static C:\Users\Abe\MPLABXProjects\LED_DICE_PIC16F18323_160822.X\main_01.asm
+                 TEST_JMP   0x00003f    program     static C:\Users\Abe\MPLABXProjects\LED_DICE_PIC16F18323_160822.X\main_01.asm
+                  Varinit   0x00001a    program     static C:\Users\Abe\MPLABXProjects\LED_DICE_PIC16F18323_160822.X\main_01.asm
+          _MAIN_PROG_0089   0x0000a3    program     static C:\Users\Abe\MPLABXProjects\LED_DICE_PIC16F18323_160822.X\main_01.asm
+          _MAIN_PROG_008B   0x0000a5    program     static C:\Users\Abe\MPLABXProjects\LED_DICE_PIC16F18323_160822.X\main_01.asm
+          _MAIN_PROG_008D   0x0000a7    program     static C:\Users\Abe\MPLABXProjects\LED_DICE_PIC16F18323_160822.X\main_01.asm
+
+
+
+                              Symbols - Sorted by Address
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                    PBISR   0x000005    program     static C:\Users\Abe\MPLABXProjects\LED_DICE_PIC16F18323_160822.X\main_01.asm
+                   STR_Hi   0x00000c    program     static C:\Users\Abe\MPLABXProjects\LED_DICE_PIC16F18323_160822.X\main_01.asm
+                   STR_Lo   0x000013    program     static C:\Users\Abe\MPLABXProjects\LED_DICE_PIC16F18323_160822.X\main_01.asm
+                    START   0x00001a    program     static C:\Users\Abe\MPLABXProjects\LED_DICE_PIC16F18323_160822.X\main_01.asm
+                  Varinit   0x00001a    program     static C:\Users\Abe\MPLABXProjects\LED_DICE_PIC16F18323_160822.X\main_01.asm
+                    Ainit   0x00001f    program     static C:\Users\Abe\MPLABXProjects\LED_DICE_PIC16F18323_160822.X\main_01.asm
+                    Cinit   0x000028    program     static C:\Users\Abe\MPLABXProjects\LED_DICE_PIC16F18323_160822.X\main_01.asm
+                   T2init   0x000031    program     static C:\Users\Abe\MPLABXProjects\LED_DICE_PIC16F18323_160822.X\main_01.asm
+                  INTinit   0x000037    program     static C:\Users\Abe\MPLABXProjects\LED_DICE_PIC16F18323_160822.X\main_01.asm
+                 TEST_JMP   0x00003f    program     static C:\Users\Abe\MPLABXProjects\LED_DICE_PIC16F18323_160822.X\main_01.asm
+              Display_LED   0x00003f    program     static C:\Users\Abe\MPLABXProjects\LED_DICE_PIC16F18323_160822.X\main_01.asm
+               Cycle_Rand   0x000048    program     static C:\Users\Abe\MPLABXProjects\LED_DICE_PIC16F18323_160822.X\main_01.asm
+                    R_110   0x000055    program     static C:\Users\Abe\MPLABXProjects\LED_DICE_PIC16F18323_160822.X\main_01.asm
+                    R_111   0x000056    program     static C:\Users\Abe\MPLABXProjects\LED_DICE_PIC16F18323_160822.X\main_01.asm
+                    R_0xx   0x000057    program     static C:\Users\Abe\MPLABXProjects\LED_DICE_PIC16F18323_160822.X\main_01.asm
+                    R_010   0x00005a    program     static C:\Users\Abe\MPLABXProjects\LED_DICE_PIC16F18323_160822.X\main_01.asm
+                    R_011   0x00005b    program     static C:\Users\Abe\MPLABXProjects\LED_DICE_PIC16F18323_160822.X\main_01.asm
+                    R_10x   0x00005c    program     static C:\Users\Abe\MPLABXProjects\LED_DICE_PIC16F18323_160822.X\main_01.asm
+                    R_100   0x00005d    program     static C:\Users\Abe\MPLABXProjects\LED_DICE_PIC16F18323_160822.X\main_01.asm
+                    R_101   0x00005e    program     static C:\Users\Abe\MPLABXProjects\LED_DICE_PIC16F18323_160822.X\main_01.asm
+                    R_00x   0x00005f    program     static C:\Users\Abe\MPLABXProjects\LED_DICE_PIC16F18323_160822.X\main_01.asm
+                    R_001   0x000060    program     static C:\Users\Abe\MPLABXProjects\LED_DICE_PIC16F18323_160822.X\main_01.asm
+                    R_000   0x000061    program     static C:\Users\Abe\MPLABXProjects\LED_DICE_PIC16F18323_160822.X\main_01.asm
+                   Disp_1   0x000062    program     static C:\Users\Abe\MPLABXProjects\LED_DICE_PIC16F18323_160822.X\main_01.asm
+                   Disp_2   0x00006a    program     static C:\Users\Abe\MPLABXProjects\LED_DICE_PIC16F18323_160822.X\main_01.asm
+                   Disp_3   0x000073    program     static C:\Users\Abe\MPLABXProjects\LED_DICE_PIC16F18323_160822.X\main_01.asm
+                   Disp_4   0x00007d    program     static C:\Users\Abe\MPLABXProjects\LED_DICE_PIC16F18323_160822.X\main_01.asm
+                   Disp_5   0x000087    program     static C:\Users\Abe\MPLABXProjects\LED_DICE_PIC16F18323_160822.X\main_01.asm
+                   Disp_6   0x000091    program     static C:\Users\Abe\MPLABXProjects\LED_DICE_PIC16F18323_160822.X\main_01.asm
+                    Delay   0x00009c    program     static C:\Users\Abe\MPLABXProjects\LED_DICE_PIC16F18323_160822.X\main_01.asm
+          _MAIN_PROG_0089   0x0000a3    program     static C:\Users\Abe\MPLABXProjects\LED_DICE_PIC16F18323_160822.X\main_01.asm
+          _MAIN_PROG_008B   0x0000a5    program     static C:\Users\Abe\MPLABXProjects\LED_DICE_PIC16F18323_160822.X\main_01.asm
+          _MAIN_PROG_008D   0x0000a7    program     static C:\Users\Abe\MPLABXProjects\LED_DICE_PIC16F18323_160822.X\main_01.asm
+                 Random16   0x0000a9    program     static C:\Users\Abe\MPLABXProjects\LED_DICE_PIC16F18323_160822.X\main_01.asm
+                Clear_LED   0x0000bb    program     static C:\Users\Abe\MPLABXProjects\LED_DICE_PIC16F18323_160822.X\main_01.asm
+                 Spin_LED   0x0000c2    program     static C:\Users\Abe\MPLABXProjects\LED_DICE_PIC16F18323_160822.X\main_01.asm
+
+
